@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: #1e2f00;
+  height: 747px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+main {
+  background-color: #104000;
+  height: 100%;
+  max-height: 550px;
+  max-width: 600px;
+  width: 90%;
+  border: 5px solid #222;
+  box-shadow: 0 0 10px #222;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #e2f2d2;
+  margin: 10px;
+  text-align: center;
+  border-bottom: 5px solid #e2f2d2;
+}
+
+.count-section,
+.check-section {
+  background-color: #2e5622;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #222;
+}
+
+label,
+.count-section input {
+  margin: 5px 15px;
+}
+
+.count-section input:hover,
+.check-section input:hover {
+  border-color: #516651;
+}
+
+.check-section input {
+  background-color: #e2f2d2;
+  border-color: #778877;
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.submit-section button:hover {
+  border-color: #778877;
+  background-color: #667766;
+}
+
+.submit-section button:active {
+  border-color: #667766;
+  background-color: #516651;
+}
+
+label {
+  color: #e2f2d2;
+  font-weight: bold;
+}
+
+.count-section input {
+  background-color: #222;
+  border: 2px solid #e2f2d2;
+  padding: 5px;
+  border-radius: 15px;
+  color: #e2f2d2;
+  font-weight: bold;
+  width: 60px;
+  height: 32px;
+  text-align: center;
+}
+
+.check-section div {
+  margin: 10px 0;
+}
+
+.submit-section {
+  background-color: #222;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #222;
+}
+
+.submit-section button {
+  background-color: #778877;
+  border: 2px solid #e2f2d2;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 15px;
+  color: #e2f2d2;
+  font-weight: bold;
+  font-size: large;
+  width: 100px;
+  height: 42px;
+  text-align: center;
+}
+
+.submit-section div {
+  background-color: #e2f2d2;
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #104000;
+  margin: 5px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.submit-section div:hover {
+  border-color: #516651;
+}
+
+.submit-section p {
+  color: #222;
+  font-weight: bold;
+}
